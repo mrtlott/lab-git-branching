@@ -1,8 +1,8 @@
 ## Objective
 
-- creating branches
-- merging changes
-- managing branches in Git 
+- Creating branches
+- Merging changes
+- Managing branches in Git 
 
 ## Prerequisites
 
@@ -52,15 +52,21 @@ Confirm you are on branch A:
 git branch
 ```
 
-Manually open and add "feature 1" to a text file. For example, using a text editor:
+Add a text file to this repo named feature1.txt 
 
 ```bash
-open feature.txt
+touch feature1.txt
+```
+
+Open the text file and add "feature 1" to the feature1.txt file. Example command below:
+
+```bash
+open feature1.txt
 ```
 
 *Add the text "feature 1" to the file, save and close the editor.*
 
-Go back to your terminal and check the status of your branch:
+Go back to your terminal and check the status of your git:
 
 ```bash
 git status
@@ -69,7 +75,7 @@ git status
 Add and commit the change:
 
 ```bash
-git add feature.txt
+git add feature1.txt
 git commit -m "Add feature 1"
 ```
 
@@ -80,6 +86,7 @@ Switch to the main branch and check the current branch:
 ```bash
 git checkout main
 git branch
+ls and enter
 ```
 
 Create and switch to branch B:
@@ -89,10 +96,17 @@ git checkout -b branch-b
 git branch
 ```
 
-Again, manually open the text file and add "feature 2":
+Add a text file to the current branch, branch-b, of this repo named feature1.txt 
 
 ```bash
-open feature.txt
+touch feature1.txt
+```
+
+
+Manually open the text file and add "feature 2":
+
+```bash
+open feature2.txt
 ```
 
 *Add the text "feature 2" to the file, save and close the editor.*
@@ -100,7 +114,7 @@ open feature.txt
 Add and commit the change:
 
 ```bash
-git add feature.txt
+git add feature2.txt
 git commit -m "Add feature 2"
 ```
 
@@ -141,5 +155,5 @@ Push the main branch to your forked repository:
 git push origin main
 ```
 
-On GitHub, navigate to your forked repository and create a pull request to the original repository.
+On GitHub, navigate to your forked repository and create a pull request to the original repository. Title your PR -> Merge branch-b into branch-a: Add both files.
 
