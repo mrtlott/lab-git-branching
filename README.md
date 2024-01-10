@@ -154,6 +154,7 @@ Push the main branch to your forked repository:
 ```bash
 git push origin main
 ```
+### 9. Title Pull Request
 
-On GitHub, navigate to your forked repository and create a pull request to the original repository. Title your PR -> Merge branch-b into branch-a: Add both files.
+On GitHub, navigate to your forked repository and create a pull request to the original repository. Title your PR "Merge branch-b into branch-a: Add both files."
 
