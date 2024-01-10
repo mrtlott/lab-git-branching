@@ -96,10 +96,10 @@ git checkout -b branch-b
 git branch
 ```
 
-Add a text file to the current branch, branch-b, of this repo named feature1.txt 
+Add a text file to the current branch, branch-b, of this repo named feature2.txt 
 
 ```bash
-touch feature1.txt
+touch feature2.txt
 ```
 
 
